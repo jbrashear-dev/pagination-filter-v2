@@ -99,7 +99,7 @@ body{
   margin: 40px 0 0 0;
   text-align: center;
 }
- 
+
   .pagination li{
     display: inline;
   }
@@ -113,7 +113,8 @@ body{
     }
 
     .pagination li a.active,
-    .pagination li a:hover{
+    .pagination li a:hover,
+    .pagination li a:focus{
       background-color: #4ba6c3;
       color: #fff;
     }
